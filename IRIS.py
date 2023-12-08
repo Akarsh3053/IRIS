@@ -1,7 +1,16 @@
-from tkinter import*
-root = Tk()
-root.title("Tk example")
-root.geometry("500x500")
-Button(root, text="Button").place(x=100, y=100)
-Label(root, text="label").place(x=200, y=100)
-root.mainloop()
+import tkinter as tk
+from tkinter import ttk
+
+# window
+window = tk.Tk()
+window.geometry("600x400")
+window.title("IRIS")
+
+
+'''
+Everything Goes Here ..................
+'''
+
+
+# run
+window.mainloop()
