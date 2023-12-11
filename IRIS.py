@@ -6,8 +6,8 @@ from PIL import Image, ImageTk
 window = tk.Tk()
 window.iconbitmap("assets/IRIS.ico")
 window.title("IRIS")
-x, y = window.winfo_screenwidth(), window.winfo_screenheight()
-window.geometry(f'{x}x{y}')
+window.state('zoomed')
+
 
 # BG image config
 bg_image = Image.open("assets/bg.jpg")
