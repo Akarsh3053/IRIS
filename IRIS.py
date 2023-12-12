@@ -1,11 +1,12 @@
-import tkinter as tk
 from tkinter import ttk
+import tkinter as tk
 from PIL import Image, ImageTk
 
 # window config
 window = tk.Tk()
 window.iconbitmap("assets/IRIS.ico")
 window.title("IRIS")
+
 window.state('zoomed')
 
 
