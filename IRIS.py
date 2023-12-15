@@ -1,4 +1,4 @@
-from tkinter import ttk
+from tkinter import Button, PhotoImage
 import tkinter as tk
 from PIL import Image, ImageTk
 
@@ -20,5 +20,9 @@ canvas.pack()
 
 canvas.create_image(0, 0, image=background, anchor='nw')
 
+# Icons buttons
+photo = PhotoImage(file="assets/IRIS.png")
+button2 = tk.Button(canvas, image=photo)
+button2.pack(side="right")
 # run
 window.mainloop()
