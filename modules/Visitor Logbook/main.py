@@ -4,7 +4,7 @@ import numpy as np
 import os
 from datetime import datetime
 
-path = r'C:\Users\Kanika\Desktop\attandance\CV_2.0 bug fixed\Training_Images'
+path = 'Images'
 images = []
 classNames = []
 img_list = os.listdir(path)
@@ -39,7 +39,7 @@ def markAttendance(name):
     :returns : Attendance Sheet in form of a Attendance.csv file
     """
 
-    with open('Attendance.csv', 'r+') as f:
+    with open('Records.csv', 'r+') as f:
         myDataList = f.readlines()
         nameList = []
         for line in myDataList:
