@@ -1,0 +1,8 @@
+path: D:/COLLEGE/FOURTH YEAR/Major Project/Warehouse Module/data # (absolute path)
+train: images/train # ('relative to path')
+val: images/train # ('relative to path')
+
+# Classes
+names:
+  0: cargo
+
